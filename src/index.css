@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@layer base {
+  :root {
+    @apply text-text-primary bg-background;
+  }
+}
+
+@theme {
+  /* Font */
+  --font-sans: "NTR", sans-serif;
+
+  /* Backgrounds */
+  --color-background: #0b0b0c;
+  --color-surface: #111114;
+
+  /* Text */
+  --color-text-primary: #e8e8f0;
+  --color-text-secondary: #9ca3af;
+
+  /* Accent (Violet) */
+  --color-accent: #6b42cc;
+  --color-accent-hover: #7d55d9;
+}
